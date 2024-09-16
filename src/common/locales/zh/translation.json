@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "Title": "VBall",
+        "Home": "首頁",
+        "More": "更多",
+        "Game": "遊戲介紹",
+        "Contact": "聯絡我們"
+    },
+    "Home": {
+        "Title": "測試"
+    }
+}

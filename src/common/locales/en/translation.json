@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "Title": "VBall",
+        "Home": "Home",
+        "More": "More",
+        "Game": "Game",
+        "Contact": "Contact Us"
+    },
+    "Home": {
+        "Title": "Test"
+    }
+}

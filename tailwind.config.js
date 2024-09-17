@@ -3,6 +3,7 @@ const plugin = require('tailwindcss/plugin');
 
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    darkMode: 'class',
     theme: {
         extend: {
             height: {
@@ -11,6 +12,11 @@ export default {
             backgroundImage: {
                 asia4: "url('src/assets/asia4.jpg')",
                 404: 'url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif)'
+            },
+            colors: {
+                Mdark: '#2c3338',
+                shopee: '#ee4d2d',
+                Mwhite: '#dbdcdc'
             },
             textShadow: {
                 sm: '0 1px 2px var(--tw-shadow-color)',

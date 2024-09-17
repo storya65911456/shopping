@@ -64,7 +64,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className='flex-shrink-0'>
                     <Link to='/' className='text-xl font-bold' onClick={handleLinkClick}>
-                        {t('Navbar.Title')}
+                        123
                     </Link>
                 </div>
                 {/* Menu Button (Mobile) */}

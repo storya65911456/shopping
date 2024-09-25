@@ -9,14 +9,14 @@ import NotFound from '../page/NotFound';
 const router = createBrowserRouter([
     // 登入
     {
-        path: '/',
+        path: '/Login',
         element: <Login />,
         errorElement: <NotFound />,
         children: []
     },
     // 入口
     {
-        path: '/Home',
+        path: '/',
         element: <Home />,
         children: [
             { path: '', element: <About /> },

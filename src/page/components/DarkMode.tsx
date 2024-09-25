@@ -30,7 +30,6 @@ const DarkMode = () => {
             >
                 切换黑暗模式
             </button>
-            <h1 className='text-2xl'>Tailwind CSS + React + TypeScript 黑暗模式</h1>
         </div>
     );
 };
